@@ -10,6 +10,4 @@ const pool = mysql.createPool({
     queueLimit: 0,
 });
 
-pool.query("CREATE TABLE IF NOT EXISTS Installations_Statistics ( `id` INT NOT NULL AUTO_INCREMENT, `installations` INT NOT NULL, `date` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY (`id`))");
-
 export default pool;
