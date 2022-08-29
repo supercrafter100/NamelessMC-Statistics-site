@@ -26,6 +26,10 @@ const Home: NextPage = () => {
     {
       name: "Total autoresponses sent",
       db: "AutoResponseCount"
+    },
+    {
+      name: "Total auto respones sent before thread creation",
+      db: "AutoResponsePreThreadCreate"
     }
   ];
 
